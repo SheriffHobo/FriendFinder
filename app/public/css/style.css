@@ -1,0 +1,64 @@
+body {
+    background-image: url("../../../gwar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+header {
+    height: 100px;
+    background: rgba(148, 148, 148, 0.7);
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 5%;
+    height: 100px;
+    background: rgba(148, 148, 148, 0.7);
+}
+
+header nav {
+    height: 100%;
+}
+
+main {
+    margin: 0 auto;
+    background: rgba(148, 148, 148, 0.7);
+    width: 65%;
+}
+
+#bodystyle {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;   
+}
+
+#head-nav-links {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#mainarea {
+    margin: 50px;
+}
+
+#mainfooter {
+    height: 100px;
+    background: rgba(148, 148, 148, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+}
+
+.mainpanel {
+    margin: 50px;
+}
