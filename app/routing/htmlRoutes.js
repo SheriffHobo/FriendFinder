@@ -9,4 +9,14 @@ module.exports = function(app) {
   app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
+
+  app.get("/css/*", function(req, res) {
+    console.log(req.url);
+    res.sendFile(path.join(__dirname, "../public" + req.url));
+  });
+
+  app.get("/data/*", function(req, res) {
+    console.log(req.url);
+    res.sendFile(path.join(__dirname, ".." + req.url));
+  });
 };
