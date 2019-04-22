@@ -1,16 +1,16 @@
 var path = require('path');
-var friends = require('../data/friends.js');
+var friends = require('../data/friends');
 
 // Export API routes
 module.exports = function(app) {
 
 	// List of friends data
-	app.get('/api/friends', function(req, res) {
+	app.get('../data/friends', function(req, res) {
 		res.json(friends);
 	});
 
 	// Add a new friend
-	app.post('/api/friends', function(req, res) {
+	app.post('../data/friends', function(req, res) {
 
 	// Capturing user input
 	var userInput = req.body;
