@@ -68,6 +68,6 @@ main {
     margin: 50px;
 }
 
-h4 {
+h4, h5 {
     color: black;
 }
