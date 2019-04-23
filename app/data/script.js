@@ -1,6 +1,7 @@
 $(function () {
 
     $('#submitButton').on('click', function (event) {
+        confirm.log('click heard');
         event.preventDefault();
         var userInput = {
             name: $('#userName').val().trim(),
