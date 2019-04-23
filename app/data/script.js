@@ -24,7 +24,7 @@ $(function () {
             .done(function (data) {
                 $('#userMatch').html(data.matchName);
                 $("#userMatchImage").attr("src", data.matchImage);
-                $('#modal1').modal('open');
+                $('#modal1').modal();
             });
     });
 });
