@@ -48,7 +48,8 @@ main {
 }
 
 #mainarea {
-    margin: 50px;
+    /* margin: 50px; */
+    margin: 0 auto
 }
 
 #mainfooter {
