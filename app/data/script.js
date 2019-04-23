@@ -19,7 +19,7 @@ $(function () {
             ]
         };
 
-        $.post('../data/friends', userInput)
+        $.post('api/friends', userInput)
             .done(function (data) {
                 $('#userMatch').html(data.matchName);
                 $("#userMatchImage").attr("src", data.matchImage);

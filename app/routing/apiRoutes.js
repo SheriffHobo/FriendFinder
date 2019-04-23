@@ -5,12 +5,12 @@ var friends = require('../data/friends');
 module.exports = function(app) {
 
 	// List of friends data
-	app.get('../data/friends', function(req, res) {
+	app.get('/api/friends', function(req, res) {
 		res.json(friends);
 	});
 
 	// Add a new friend
-	app.post('../data/friends', function(req, res) {
+	app.post('/api/friends', function(req, res) {
 
 	// Capturing user input
 	var userInput = req.body;
