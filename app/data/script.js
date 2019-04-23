@@ -20,6 +20,7 @@ $(function () {
             ]
         };
 
+        
         $.post('api/friends', userInput)
             .done(function (data) {
                 $('#userMatch').html(data.matchName);
